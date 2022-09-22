@@ -36,4 +36,4 @@ It's formed by a "Project name" and by the name of the page were you are in.
 #/views/master.njk
 <title>
     {% block projectTitle %}{% endblock %}
-</title> 
+</title>
