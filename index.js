@@ -3,9 +3,9 @@ const nunjucks = require("nunjucks");
 const app = express(); // Crea un instancia de Express.
 const routes = require("./routes");
 const host = ("http://localhost")
-const PORT = process.env.APP_PORT || 5501;
+const PORT = process.env.APP_PORT || 5500;
 
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/src'));
 app.set("view engine", "njk");
 
 nunjucks.configure("views", {

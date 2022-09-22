@@ -1,0 +1,23 @@
+h2 {
+  color: #000000;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #ffc107;
+  transform: scale(1.2);
+  transition: ease-in-out 0.3s;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+  }
+}
