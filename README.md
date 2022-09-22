@@ -2,9 +2,9 @@
  Nunjucks, Bootstrap 5.2 and css Template
 
 Project
- ┣ controllers
- ┃ ┗ pagesController.js
- ┣ src
+┣ controllers
+┃ ┗ pagesController.js
+┣ src
  ┃ ┣ css
  ┃ ┃ ┗ style.css (it's not bootstrap - CSS only)
  ┃ ┗ js
